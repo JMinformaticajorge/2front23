@@ -1,3 +1,7 @@
+*{
+	margin: 0%;
+}
+
 p{
 	text-align: center;
 }
@@ -16,4 +20,17 @@ body{
 
 #banner {
     width: 100%;
+}
+
+.items {
+	font-size: italic;
+	list-style: none;
+}
+
+h2{
+	text-align: center;
+}
+
+#beneficios {
+	width: 100%;
 }
