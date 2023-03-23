@@ -2,8 +2,9 @@
 	margin: 0%;
 }
 
-p{
+p,.centralizar{
 	text-align: center;
+	margin-top: 20px;
 }
 body{
 	background: black;
@@ -13,8 +14,9 @@ body{
  em strong{
 	 color: #FF0000;
  }
- h1 {
+ h1,h2 {
 	 color: #0000FF;
+	 margin-top: 20px;
  }
  
 
@@ -29,8 +31,16 @@ body{
 
 h2{
 	text-align: center;
+	
 }
 
 #beneficios {
-	width: 100%;
+	width: 50%;
+}
+
+ul {
+	display: inline-block;
+	width: 20%;
+	margin-right: 15%;
+	vertical-align: top;
 }
