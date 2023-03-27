@@ -1,0 +1,19 @@
+body {
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #bbbbbb;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: black;
+    font-size: 22px;
+    font-weight: bold;
+    text-decoration: none;
+}
