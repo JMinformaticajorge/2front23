@@ -1,3 +1,14 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    list-style: none;
+    text-decoration:none;
+}
+
+
+
+
+
 body {
     background-color: #f4f4f4;
 }
@@ -8,6 +19,7 @@ header {
 
 nav li {
     display: inline-block;
+    padding: 10PX;
 }
 
 nav a {
@@ -16,4 +28,19 @@ nav a {
     font-size: 22px;
     font-weight: bold;
     text-decoration: none;
+}
+
+header {
+    background-color: #bbb;
+    padding: 20px 0;
+}
+
+.content {
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav {
+    float: right;
+    margin-top: 70px;
 }
