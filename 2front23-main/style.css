@@ -1,0 +1,50 @@
+*{
+	margin: 0%;
+	padding: 0%;
+    list-style: none;
+    text-decoration:none;
+}
+
+
+p,.centralizar{
+	text-align: center;
+	margin-top: 20px;
+}
+body{
+	background: black;
+	color: white
+	
+} 
+ em strong{
+	 color: #FF0000;
+ }
+ h1,h2 {
+	 color: #0000FF;
+	 margin-top: 20px;
+ }
+ 
+
+#banner {
+    width: 100%;
+}
+
+.items {
+	font-size: italic;
+	list-style: none;
+}
+
+h2{
+	text-align: center;
+	
+}
+
+#beneficios {
+	width: 50%;
+}
+
+ul {
+	display: inline-block;
+	width: 20%;
+	margin-right: 15%;
+	vertical-align: top;
+}
