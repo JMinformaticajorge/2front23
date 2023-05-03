@@ -138,6 +138,34 @@ spam {
     
 }
 
+form {
+	margin:40px 0;
+}
+
+label {
+	font-size: 19px;
+	width:100px;
+	display: inline-block;
+	
+}
+
+input{
+	padding:10px 25px;
+	width:35%;
+	border-radius:19px;
+}
+
+button{
+	display: inline-block;
+	width:150px;
+	padding:10px;
+	border-radius:19px;
+	
+}
+input:focus-visible{
+border:none;
+}
+
 
 
 
