@@ -31,15 +31,47 @@
 			<form action="">
 			
 			<label for="nome">Nome</label>
-			<input type="text" id="name" nome="name" placeholder="insira seu nome">
+			<input type="text" id="name" nome="name" placeholder="Insira seu nome">
 		<br>
 			<label for="Email">Email:</label>
-			<input type="email" id="email" name="email" placeholder="insira seu nome">
-			
+			<input type="email" id="email" name="email" placeholder="Insira seu nome">
+        <br>
+            <label for="phone">Telefone</label>
+            <input type="text" id="phone" placeholder="Insira seu telefone">
+
+            <p>Como deseja receber nosso contato?</p>
+
+            <label for="whatsapp">
+            <input type="radio" value="whatsapp" name="contato" id="whatsapp">
+            whatsapp
+            </label>
+
+            <label for="ligacao">
+            <input type="radio" value="ligacao" name="contato" id="ligacao">
+            ligaçao
+            </label>
+
+        
+            <label for="email">
+                <input type="radio" value="email" name="contato" id="email">
+                E-mail
+            </label>
+		<br>
+
+        <p>Qual melhor horario</p>
+        <select name="horario">
+             <option value="manha">Manha</option>
+             <option value="tarde">Tarde</option>
+             <option value="noite">Noite</option>
+
+        </select>
+        <br>
+
 			<button type="submit">Enviar mensagem</button>
 			
 			</form>
         </div>   
+       
     <main>     
     <footer>
         <img id="logo"   src="./logo-branco.png" alt="logo-branco">
