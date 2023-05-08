@@ -106,8 +106,10 @@ nav li:hover{
 }
 
 .content{
+    width: 940px;
+    margin: 0 auto;
     padding: 20px;
-    text-align: center;
+   /* text-align: center;*/
 }
 
 
@@ -123,7 +125,7 @@ footer {
    
 }
 
-spam {
+span {
     font-family: 'Roboto Mono', monospace;
     font-size: 17px;
     color: aliceblue;
@@ -149,9 +151,9 @@ label {
 	
 }
 
-input{
+input, select{
 	padding:10px 25px;
-	width:35%;
+	width:50%;
 	border-radius:19px;
 }
 
@@ -160,10 +162,25 @@ button{
 	width:150px;
 	padding:10px;
 	border-radius:19px;
+    margin-top: 10px;
 	
 }
 input:focus-visible{
 border:none;
+}
+
+form label, form p{
+    display: block;
+    font-size: 18px;
+    margin: 10px 0 10px;
+}
+
+form label {
+    width: 200pxs;
+}
+
+#maps {
+   position: relative;
 }
 
 
