@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family= Kdam+Thmor+Pro & display=swap') ;
 
 
@@ -53,13 +54,6 @@ ul {
  #logo {
     width: 80px;
     height: auto;
-    background-color: aliceblue;
- }
-
- a {
-    background-color: aliceblue;
-    color: black;
-    
  }
 
 
@@ -67,13 +61,59 @@ ul {
 
 
 
+  section{
+    background-color: var(--preto-letra);
+    color: white;
+    height: 1400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.primeirapg{
+    margin-top: 50px;
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.primeiro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 400px;
+}
+.primeirafoto{
+    margin-right: 50px;
+    height: 400px;
+}
+.primeirotexto{
+    margin-left: 20px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.primeirotexto h1{
+    font-size: 22px;
+    align-self: flex-start;
+}
+.primeirotexto p{
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+#poço {
+    width: 700px;
+    height: 322px;
+}
 
 
 
-
-
-
- /* Estilos do rodapé */
+/* Estilos do rodapé */
 footer {
     background-color: aliceblue;
     color:rgb(0, 0, 0);
@@ -95,6 +135,4 @@ footer {
     text-decoration: none;
     transition: color 0.3s;
   }
-
-
-
+  
